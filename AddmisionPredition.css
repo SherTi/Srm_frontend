@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    cursor: default;
+}
+
+span {
+    cursor: default;
+}
+
+p {
+    cursor: default;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 0 calc((100% - 1170px) / 2);
+}
+
+.bg {
+    background-color: #3A51CC;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.firstBlock {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.menu_element {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.link_login_page {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link_login_page_element {
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.add {
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+.linkPage {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    color: #3A51CC;
+    margin: 68px 0 0 0;
+}
+
+
+/* link elements */
+
+.titleTextElement {
+    font-size: 36px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.headerTextaddBlock_main {
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.15);
+    border-left: 18px solid #3A51CC;
+    border-radius: 4px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.headerTextaddBlock {
+    width: 95%;
+}
+
+.title {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.filterPlace {
+    width: 400px;
+    height: 60px;
+    background-color: rgba(196, 196, 196, 0.3);
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 32px;
+    padding: 18px 110px 18px 25px;
+    margin-top: 20px;
+}
+
+.arrowdown {
+    width: 15px;
+    height: 15px;
+    fill: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.filterarrow {
+    position: absolute;
+    top: 63%;
+    left: 355px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: calc(100% - 2px);
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.associationDiv {
+    position: relative;
+}
+
+.pickBlockElementdata {
+    margin-top: 70px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding-right: 15px;
+    margin-bottom: 75px;
+}
+
+.PickBlock {
+    display: flex;
+}
+
+.pickelement {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pickInput {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+    height: 35px;
+    width: 70px;
+}
+
+.marLeft {
+    margin-left: 18px;
+}
+
+.pickText {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #000000;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.calculate {
+    background-color: #FFFFFF;
+    width: 220px;
+    border: 1px solid #3A51CC;
+    border-radius: 4px;
+    height: 50px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.textblock {
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    background-color: rgba(196, 196, 196, 0.15);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+    border-left: 18px solid #3A51CC;
+    border-radius: 4px 0px 4px 4px;
+}
+
+.red {
+    border-left: 18px solid #CC3A3A;
+    border-radius: 4px 0px 4px 4px;
+    margin-bottom: 100px;
+}
+
+.textblockElemnt {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 50px;
+}
+
+
+/* Footer styles */
+
+.endblock {
+    display: flex;
+    justify-content: space-between;
+    background-color: #414141;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.endlogo img {
+    width: 100px;
+    height: 100px;
+}
+
+.bgcEnd {
+    background-color: #414141;
+}
+
+.endblocktext {
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 1.8rem;
+}
+
+.endBlockElementadd {
+    margin: 0px;
+    padding-top: 15px;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    display: block;
+}
+
+.SocialIcons {
+    width: 20px;
+    height: 20px;
+    text-align: right;
+}
+
+.footerPhone {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.endblockLocation {
+    display: block;
+}
+
+.location {
+    display: block;
+}
+
+.socialIcons {
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.footerPhoneBlock {
+    padding-top: 15px;
+}
+
+
+/* Footer styles */
+
+@media (max-width: 1171px) {
+    .container {
+        padding: 0 calc((100% - 870px) / 2);
+    }
+}
